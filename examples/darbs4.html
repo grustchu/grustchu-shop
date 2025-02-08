@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="lv">
+
+<head>
+    <meta charset="utf-8">
+    <title>4.Darbs</title>
+    <link rel="icon" type="image/x-icon" href="images/logo1.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="css/mystyle.css" rel="stylesheet">
+    <script src="js/myscrypts.js" defer></script>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <header class="bg-danger text-white text">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <a href="index.html" class="text-white text-decoration-none">
+                    <img src="images/hska.png" alt="Logo" height="40" width="40" class="me-2">
+                    Mana Bootstrap vietne
+                </a>
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="darbsDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Darbs
+                                    </a>
+                                    <ul class="dropdown-menu " aria-labelledby="darbsDropdown">
+                                        <li><a class="dropdown-item " href="darbs1.html">Darbs 1</a></li>
+                                        <li><a class="dropdown-item " href="darbs2.html">Darbs 2</a></li>
+                                        <li><a class="dropdown-item " href="darbs3.html">Darbs 3</a></li>
+                                        <li><a class="dropdown-item " href="darbs4.html">Darbs 4</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="atteli.html">Attēli</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="kontakti.html">Kontakti</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <content class="container-fluid mh-100">
+        
+        <div class="container">
+            <h1>4.Darbs</h1>
+        
+            <div class="alert alert-danger" role="alert">
+                Šis ir Bootstrap 5 brīdinājums par briesmām!
+            </div>
+
+            <div class="alert alert-warning" role="alert">
+                Šis ir brīdinājuma brīdinājums!
+            </div>
+
+            <div class="alert alert-success" role="alert">
+                Šis ir Bootstrap 5 veiksmes brīdinājums!
+            </div>
+
+            <div class="alert alert-info" role="alert">
+                Šis ir Bootstrap 5 informācijas brīdinājums!
+            </div>
+
+            <div class="alert alert-primary" role="alert">
+                Šis ir Bootstrap 5 primārais brīdinājums!
+            </div>       
+
+            <div id="image-container">
+                <img id="main-image" src="" alt="Image" style="display:none;" width="300" height="300">
+              </div>
+             
+            <div>
+                <button class="btn btn-primary" id="myButton" onclick="changeImage()">Click to change image</button>
+            </div>
+
+            <div class="text-card">
+                <h2 class="text-card-title">Bootstrap</h2>
+                <p class="text-card-content">Bootstrap ir milzīgs parocīgu, atkārtoti lietojamu koda bitu kolekcija, kas rakstīta HTML, CSS un JavaScript. Tas ir arī priekšgala izstrādes ietvars, kas ļauj izstrādātājiem un dizaineriem ātri izveidot pilnībā atsaucīgas vietnes.
+                    Būtībā Bootstrap ietaupa jūs no daudz CSS koda rakstīšanas, dodot jums vairāk laika, ko veltīt tīmekļa lapu izstrādei.</p>
+            </div>
+        </div>
+
+            
+            
+        
+        <button type="button" onclick="topFunction()" id="myBtn" title="Go to top">Go to top</button>
+    </content>
+
+    <footer class="mt-auto bg-danger text-white text-center">
+        Oļegs Grustāns - © 2023
+    </footer>
+</body>
+
+</html>
